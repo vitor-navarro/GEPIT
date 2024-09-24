@@ -1,0 +1,67 @@
+/* src/styles/createItem.css */
+
+/* Estilização do contêiner do botão "Voltar" */
+.back-button-container {
+  margin-top: 20px;
+  margin-left: 30px;
+  display: inline-block; /* Utiliza Flexbox para alinhar o conteúdo */
+}
+
+/* Estilização do botão "Voltar" */
+.back-button-container button {
+  padding: 10px 15px; /* Espaçamento interno do botão */
+  background-color: #007bff; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Remove borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+  font-size: 16px; /* Tamanho da fonte */
+  
+}
+
+.back-button-container button:hover {
+  background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+.create-item {
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    border: 1px solid #ddd; /* Borda do formulário */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Cor de fundo */
+  }
+  
+  .create-item h2 {
+    text-align: center; /* Centraliza o título */
+  }
+  
+  .create-item div {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+  }
+  
+  .create-item label {
+    display: block; /* Faz o label ocupar toda a linha */
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+  }
+  
+  .create-item input {
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    padding: 8px; /* Espaçamento interno do input */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+  }
+  
+  .create-item button {
+    width: 100%; /* Faz o botão ocupar toda a largura */
+    padding: 10px; /* Espaçamento interno do botão */
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .create-item button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
